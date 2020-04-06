@@ -1,0 +1,177 @@
+#title {
+  background-color: #ff4c68;
+  z-index: -1;
+  }
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.downloadIcon{
+  margin: 5% 3% 5% 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+h2, em{
+  color: white;
+  font-family: 'Montserrat';
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image{
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+#features {
+background-color: white;
+position: relative;
+z-index: 1;
+}
+
+#headerTitle {
+  /* margin: auto; */
+}
+
+.featureIcon{
+  color: #ef8172;
+  margin: 20% 0 6%;
+
+}
+
+i:hover{
+  color: #ff4c68;
+}
+
+a:hover{
+  color: #ff4c68;
+}
+
+.featureCol {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.carousel{
+  height: 300px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+.testimonialImage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+.pressImage {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  margin-top: 2%;
+  padding: 100px;
+}
+
+.pricingHeader {
+  color: black;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.pricingTagLine {
+  color: black;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 5%;
+  color: white;
+}
+
+#footer{
+  text-align: center;
+  margin: 5%;
+}
+
+.copy {
+  margin-top: 1%;
+}
+.social {
+  margin: 2%;
+}
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotateX(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
